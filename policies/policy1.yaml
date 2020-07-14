@@ -1,0 +1,9 @@
+---
+    name: wf.concurrency
+    pack: hello_wf
+    description: Limits the concurrent executions of the workflow action.
+    enabled: true
+    resource_ref: hello_wf.wf
+    policy_type: action.concurrency
+    parameters:
+        threshold: 10

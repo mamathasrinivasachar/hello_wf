@@ -1,0 +1,7 @@
+---
+name:wf 
+pack: hello_wf
+description: "Greet Workflow StackStorm"
+action_ref: "hello_wf.wf"
+formats:
+  - "wfName {{wfName}}"

@@ -1,0 +1,12 @@
+name: wf 
+pack: hello_wf
+runner_type: "local-shell-script"
+description: Greet Workflow StackStorm!
+enabled: true
+entry_point: wf.sh
+parameters:
+    wfName:
+        type: string
+        description: Workflow you want to run 
+        required: true
+        position: 1
